@@ -1,26 +1,114 @@
 @import "tailwindcss";
 
+@theme {
+  /* ── Vibrant Gradient Palette ── */
+  --color-luxury-black:   #030303;
+  --color-luxury-obsidian:#070709;
+  --color-luxury-surface: #0c0c0e;
+
+  /* Zinc-based neutrals */
+  --color-zinc-950:  #09090b;
+  --color-zinc-900:  #18181b;
+  --color-zinc-800:  #27272a;
+  --color-zinc-700:  #3f3f46;
+  --color-zinc-600:  #52525b;
+  --color-zinc-500:  #71717a;
+  --color-zinc-400:  #a1a1aa;
+  --color-zinc-300:  #d4d4d8;
+  --color-zinc-200:  #e4e4e7;
+  --color-zinc-100:  #f4f4f5;
+
+  /* Brand Vibrant Accents */
+  --color-brand-indigo:  #6366f1;
+  --color-brand-purple:  #a855f7;
+  --color-brand-pink:    #ec4899;
+  --color-brand-cyan:    #06b6d4;
+  --color-brand-emerald: #10b981;
+
+  /* Overwrites for layout items */
+  --color-cyber-cyan:    #06b6d4;
+  --color-cyber-green:   #10b981;
+  --color-cyber-amber:   #f59e0b;
+  --color-cyber-crimson: #ef4444;
+  --color-cyber-border:  rgba(63, 63, 70, 0.3);
+  --color-cyber-card:    #0c0c0e;
+  --color-cyber-bg:      #030303;
+  --color-terminal-bg:   #060608;
+
+  --font-sans: var(--font-sans-body), sans-serif;
+  --font-heading: var(--font-sans-heading), sans-serif;
+  --font-mono: var(--font-mono-system), monospace;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fafafa;
+  --foreground: #09090b;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ── Base ── */
+html {
+  background-color: #f4f4f5;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f5;
+  color: #3f3f46;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
 }
+
+/* ── Platinum/Silver Text Gradient ── */
+.text-metallic {
+  background: linear-gradient(135deg, #ffffff 40%, #a1a1aa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Beautiful Signature Vibrant Gradient ── */
+.text-gradient {
+  background: linear-gradient(135deg, #818cf8 0%, #c084fc 50%, #f472b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Luxury Card with Glassmorphism and Hover Glows ── */
+.luxury-card {
+  background-color: rgba(12, 12, 14, 0.6);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.luxury-card:hover {
+  border-color: rgba(168, 85, 247, 0.4);
+  background-color: rgba(16, 16, 20, 0.85);
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px -10px rgba(139, 92, 246, 0.15), 0 0 15px -3px rgba(139, 92, 246, 0.1);
+}
+
+/* ── Custom scrollbar ── */
+::-webkit-scrollbar        { width: 6px; height: 6px; }
+::-webkit-scrollbar-track  { background: #030303; }
+::-webkit-scrollbar-thumb  { background: #27272a; border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: #8b5cf6; }
+
+/* ── Animations ── */
+@keyframes blink {
+  from, to { background-color: transparent; }
+  50%       { background-color: currentColor; }
+}
+.cursor-blink { animation: blink 1.2s step-end infinite; }
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up { animation: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+@keyframes thin-pulse {
+  0%, 100% { opacity: 0.5; }
+  50%       { opacity: 1;   }
+}
+.animate-thin-pulse { animation: thin-pulse 3s ease-in-out infinite; }

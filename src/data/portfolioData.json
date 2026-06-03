@@ -1,0 +1,51 @@
+{
+  "profile": {
+    "name": "Tshibaza Kazi Christian",
+    "title": "Systems Specialist & Network Infrastructure Administrator",
+    "location": "Kampala, Uganda",
+    "email": "bawizchris@gmail.com",
+    "phone": "+256771286134",
+    "secondaryPhone": "+256756385186",
+    "bio": "Systems Specialist engineering secure, high-availability networks and robust Linux environments. Backed by 5+ years of hands-on deployment experience—spanning enterprise Cisco routing, multi-gateway WAN infrastructure (Starlink / Fiber), and advanced server virtualization—I build resilient digital foundations designed for absolute uptime. Technical execution meets strategic organizational command.",
+    "status": "System Status: Operational // Open for Business & Enterprise Contracts"
+  },
+  "metrics": [
+    {"label": "Campus Infrastructure Uptime", "value": "99.99%"},
+    {"label": "Gateways Under Management", "value": "Starlink & Liquid Intelligent Technologies"},
+    {"label": "Systems Administration Base", "value": "Linux / Enterprise CLI"}
+  ],
+  "styledCertifications": [
+    { "name": "CISCO CCNA", "type": "network", "badgeClass": "bg-blue-50/80 text-blue-700 border-blue-200/60" },
+    { "name": "Cyber Security", "type": "security", "badgeClass": "bg-red-50/80 text-red-700 border-red-200/60" },
+    { "name": "PC Essentials & Repair", "type": "hardware", "badgeClass": "bg-zinc-100 text-zinc-800 border-zinc-200" },
+    { "name": "Graphic Design", "type": "design", "badgeClass": "bg-zinc-100 text-zinc-800 border-zinc-200" }
+  ],
+  "inProgressCertifications": [
+    "CCNP (Cisco Certified Network Professional)", 
+    "CompTIA A+"
+  ],
+  "professionalReferences": [
+    { "name": "Tibenda Seth", "title": "Manager and System Admin", "institution": "Bugema University" },
+    { "name": "Kalyango Wycliffe", "title": "Network Administrator", "institution": "Uganda Union" },
+    { "name": "Mrs. Specioza Nyanzi", "title": "Dean of Students", "institution": "Bugema University" }
+  ],
+  "links": {
+    "github": "https://github.com/Tsh-kazi",
+    "linkedin": "https://linkedin.com/in/tshibaza-kazi-2b667a1a0",
+    "cvUrl": "/assets/Tshibaza_Kazi_CV_Clean.pdf"
+  },
+  "credentials": ["CISCO CCNA", "Cyber Security", "Linux Systems Admin", "Active Directory", "Python Automation"],
+  "certifications": {
+    "completed": [
+      { "name": "CISCO CCNA", "issuer": "Cisco", "verified": true },
+      { "name": "Cyber Security", "issuer": "Bugema University", "verified": true },
+      { "name": "PC Essentials & Repair", "issuer": "Corporate Framework", "verified": true },
+      { "name": "Graphic Design", "issuer": "Technical Framework", "verified": true }
+    ],
+    "inProgress": [
+      { "name": "CCNP (Cisco Certified Network Professional)", "status": "Active Study" },
+      { "name": "CompTIA A+", "status": "Targeting Examination" }
+    ],
+    "verificationBundleUrl": "/assets/tshibaza_credentials_bundle.zip"
+  }
+}

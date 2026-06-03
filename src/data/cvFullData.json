@@ -1,0 +1,53 @@
+{
+  "professionalProfile": "Dedicated IT professional and final-year Networks & Systems Administration student with over 5 years of hands-on experience managing complex IT infrastructure. Proven expertise spanning physical LAN/WLAN deployments, Linux server administration, and cloud-based application hosting. Adept at bridging the gap between technical execution and organizational leadership to deliver secure, highly available network environments.",
+  "workExperience": [
+    {
+      "role": "Freelance Network Administrator & Installer",
+      "company": "Independent Contracting, Kampala",
+      "period": "Jul 2023 - Present",
+      "bullets": [
+        "Manage and operate an independent business dedicated to the physical installation, configuration, and maintenance of commercial and residential Wi-Fi hotspots.",
+        "Handle end-to-end network deployments, from sourcing hardware and managing ISP connections to configuring access points and ensuring optimal network performance for clients."
+      ]
+    },
+    {
+      "role": "Lab Technician, Teacher & System Administrator",
+      "company": "Bugema Adventist Secondary School, Kampala",
+      "period": "Feb 2021 - Jun 2023",
+      "bullets": [
+        "Architected and deployed campus-wide Wi-Fi hotspots, integrating services from major ISPs (including Starlink and Liquid Intelligent Technologies) to ensure 99% network uptime.",
+        "Administered robust IT infrastructure, enforcing network security through firewall configurations, malware protection, and Active Directory group policy deployments.",
+        "Maintained and optimized institutional database systems and Linux-based servers, utilizing advanced package management and terminal operations for system updates and monitoring.",
+        "Instructed comprehensive computer practicals and supervised lab sessions, translating complex hardware and software concepts for student comprehension."
+      ]
+    },
+    {
+      "role": "Lab Technician",
+      "company": "Bugema University, Kampala",
+      "period": "Jan 2018 - Dec 2020",
+      "bullets": [
+        "Managed daily operations of university computing facilities, enforcing hardware maintenance schedules and data backup protocols.",
+        "Diagnosed and resolved complex hardware and network connectivity issues, actively monitoring traffic to prevent malware infections and network bottlenecks."
+      ]
+    },
+    {
+      "role": "IT Support Technician Assistant",
+      "company": "Bugema University, Kampala",
+      "period": "Feb 2017 - Dec 2017",
+      "bullets": [
+        "Provided comprehensive technical support to students and staff via phone, email, and in-person consultations.",
+        "Performed diagnostic tests and troubleshooting to identify and resolve hardware and software issues."
+      ]
+    }
+  ],
+  "education": [
+    { "degree": "Bachelor's Degree in Networks & Systems Administration", "institution": "Bugema University", "year": "Expected 2026" },
+    { "degree": "Diploma in Information Technology", "institution": "Bugema University", "year": "2020" },
+    { "degree": "Advanced & Ordinary Level High School", "institution": "Katikamu SDA", "year": "2016" }
+  ],
+  "leadership": [
+    { "role": "Guild Vice President", "org": "Bugema University", "period": "2025 - 2026", "desc": "Directed student governance initiatives, acted as a liaison between the student body and university administration, and managed execution of campus-wide programs." },
+    { "role": "President", "org": "Science Club - Katikamu SDA", "period": "2015 - 2016", "desc": "" }
+  ],
+  "languages": ["English (Fluent)", "Kiswahili (Fluent)", "Luganda (Fluent)", "Lukonzo (Fluent)", "French (Conversational)"]
+}
