@@ -1,5 +1,5 @@
-import * as React from './node_modules/react';
-export * from './node_modules/react';
+import * as React from 'react';
+export * from 'react';
 
 export const useEffectEvent = React.useEffectEvent || function useEffectEvent(fn) {
   const ref = React.useRef(fn);
