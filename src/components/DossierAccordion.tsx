@@ -77,7 +77,7 @@ export default function DossierAccordion({
       {/* Expandable panel */}
       <div
         className={`overflow-hidden transition-all duration-500 ease-in-out ${
-          open ? "max-h-[2400px] opacity-100" : "max-h-0 opacity-0"
+          open ? "max-h-[5000px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <div className="mt-3 bg-white/80 border border-zinc-200 rounded-xl shadow-sm overflow-hidden">

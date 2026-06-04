@@ -6,7 +6,7 @@ import PrintButton from "@/components/PrintButton";
 /* ─────────────────────────────────────────────────────────────
    Constants
 ───────────────────────────────────────────────────────────── */
-const LIVE_URL = "https://tshibaza-kazi.onrender.com";
+const LIVE_URL = "https://portfolio-web-engine.onrender.com";
 
 const DEFAULT_NAME  = "Tshibaza Kazi Christian";
 const DEFAULT_TITLE = "Systems Specialist & Network Infrastructure Administrator";

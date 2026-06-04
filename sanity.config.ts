@@ -1,6 +1,7 @@
 import { defineConfig } from 'sanity';
 import { structureTool } from 'sanity/structure';
 import React from 'react';
+import { schema } from './sanity/schemaTypes';
 
 const CardGeneratorTool = () => {
   return React.createElement(
@@ -48,9 +49,10 @@ export default defineConfig({
   title: 'Christian Kazi Portfolio',
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || 'your_project_hash_here',
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
+  basePath: '/studio',
   plugins: [structureTool()],
   schema: {
-    types: [],
+    types: schema.types,
   },
   tools: (prev) => [
     ...prev,

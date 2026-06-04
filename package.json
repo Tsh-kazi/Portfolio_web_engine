@@ -13,10 +13,11 @@
     "next": "15.5.19",
     "next-sanity": "^9.12.3",
     "qrcode.react": "^4.2.0",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "react-qr-code": "^2.0.21",
-    "sanity": "^5.30.0"
+    "sanity": "^5.30.0",
+    "styled-components": "^6.4.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
