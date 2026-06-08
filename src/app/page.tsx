@@ -148,9 +148,9 @@ export default async function Page() {
             {/* ── Portrait (Floated on Desktop, Block/Centered on Mobile) ── */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/assets/profile.png"
-              alt={name}
-              className="block w-52 sm:w-60 md:w-80 lg:w-[26rem] h-auto mx-auto md:mx-0 md:float-left md:mr-10 mb-6 md:mb-4 object-contain md:[shape-outside:url(/assets/profile.png)] md:[shape-margin:1.5rem] select-none"
+              src="/assets/tshibaza-kazi-christian-it-specialist.png"
+              alt="H.E. Tshibaza Kazi Christian - Systems and Network Specialist Portfolio Photo"
+              className="block w-52 sm:w-60 md:w-80 lg:w-[26rem] h-auto mx-auto md:mx-0 md:float-left md:mr-10 mb-6 md:mb-4 object-contain md:[shape-outside:url(/assets/tshibaza-kazi-christian-it-specialist.png)] md:[shape-margin:1.5rem] select-none"
               style={{
                 filter: "drop-shadow(8px 12px 16px rgba(0,0,0,0.06)) drop-shadow(0 0 3px rgba(255,255,255,0.95)) drop-shadow(0 0 8px rgba(228,228,231,0.5))",
                 WebkitMaskImage: "linear-gradient(to bottom, rgba(0,0,0,1) 88%, rgba(0,0,0,0) 100%)",

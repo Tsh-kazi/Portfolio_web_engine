@@ -21,24 +21,35 @@ const monoSystem = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "H.E. Tshibaza Kazi Christian | Systems Specialist & Network Infrastructure Administrator",
-  description: "Designing resilient, high-scale network architectures, enterprise routing environments, and automated system infrastructure with absolute availability.",
+  title: "H.E. Tshibaza Kazi Christian | Systems & Network Administrator",
+  description:
+    "Official portfolio of H.E. Tshibaza Kazi Christian, an IT professional and systems specialist specializing in Network Administration and Web Development.",
   keywords: [
+    "Tshibaza Kazi",
+    "Tshibaza Kazi Christian",
+    "Computer Networking",
+    "Bugema University",
     "Systems Specialist",
-    "Network Infrastructure Administrator",
-    "Enterprise Routing",
-    "VLAN Configuration",
-    "System Automation",
-    "Linux Systems Administration",
-    "Infrastructure Security",
-    "Digital Risk Mitigation",
-    "H.E. Tshibaza Kazi Christian",
+    "IT Professional",
   ],
+  robots: {
+    index: true,
+    follow: true,
+  },
   authors: [{ name: "H.E. Tshibaza Kazi Christian" }],
   openGraph: {
-    title: "H.E. Tshibaza Kazi Christian | Systems Specialist",
-    description: "Designing resilient, high-scale network architectures and automated system environments with absolute availability.",
-    type: "website",
+    type: "profile",
+    title: "H.E. Tshibaza Kazi Christian | Portfolio",
+    description:
+      "IT Professional & Systems Specialist. Double-check my latest network architecture deployments and projects.",
+    images: [
+      {
+        url: "https://your-portfolio-domain.com/assets/tshibaza-kazi-christian-it-specialist.jpg",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 
@@ -49,6 +60,36 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "H.E. Tshibaza Kazi Christian",
+              "givenName": "Christian",
+              "familyName": "Tshibaza Kazi",
+              "jobTitle": "IT Professional & Systems Specialist",
+              "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Bugema University"
+              },
+              "url": "https://your-portfolio-domain.com",
+              "image": "https://your-portfolio-domain.com/assets/tshibaza-kazi-christian-it-specialist.jpg",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kampala",
+                "addressRegion": "Central Region",
+                "addressCountry": "Uganda"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/in/your-exact-linkedin-username"
+              ]
+            })
+          }}
+        />
+      </head>
       <body
         className={`${sansBody.variable} ${sansHeading.variable} ${monoSystem.variable} antialiased min-h-screen relative`}
         style={{ backgroundColor: "#030303" }}
